@@ -1,5 +1,5 @@
 # HealthAid-Android
-# Health-Aid
+# Health-Aid | Android Application
 
 - Health Aid is an Android diagnostic tool that can diagnose/identify the possible
 health conditions the person may have or is likely to possess in the near
