@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealthAid</string>
+    <string name="login_to_healthaid">Login To HealthAid</string>
+    <string name="logo">Logo</string>
+    <string name="password">Password</string>
+    <string name="email_registered">Email (Registered)</string>
+    <string name="login">LOGIN</string>
+    <string name="new_here_click_to_register">New Here? Click To Register</string>
+    <string name="todo">TODO</string>
+    <string name="register">Register To HealthAid</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="e_mail">E-mail</string>
+    <string name="pin">Personal Identification Number</string>
+    <string name="register_normal">REGISTER</string>
+    <string name="verify">VERIFY</string>
+</resources>

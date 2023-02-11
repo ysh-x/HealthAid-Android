@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterForm">
+
+    <LinearLayout
+        android:id="@+id/app_container_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/logo_holder_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logo_register3"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/applogo" />
+
+            <TextView
+                android:id="@+id/title_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="10dp"
+                android:text="@string/register"
+                android:textAlignment="gravity"
+                android:textColor="@color/grey"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/register_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name_edittext_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/age_edittext_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/email_edittext_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/e_mail"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                android:autofillHints="" />
+
+            <Button
+                android:id="@+id/verify_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@color/light_blue"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/verify"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password_edittext_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/pin_edittext_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/pin"
+                android:inputType="numberPassword"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/light_blue"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/register_normal"
+                android:textColor="@color/grey"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
