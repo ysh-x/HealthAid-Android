@@ -1,42 +1,73 @@
 # HealthAid-Android
-# Health-Aid | Android Application
 
-- Health Aid is an Android diagnostic tool that can diagnose/identify the possible
-health conditions the person may have or is likely to possess in the near
-future.
-A framework/database is built with all the common health conditions and the
-possible symptoms.
-The software gets input from the user such as height, weight, gender, age,
-lifestyle, food intake, and much more.
+Health Aid is a smart diagnostic tool that can diagnose/identify the possible health conditions the person may have or is likely to possess in the near future.
 
+## Problem Statement
 
-- Based on the inputs and the symptoms that user’s experience. The application
-analyses the user data with the help of the built framework and provides the
-insights under four different categories as mentioned below
-1. The health conditions
-2. The possible cause
-3. Suggestions
-4. Cure
+In the modern era, physical and mental well - being of an individual is very crutial
+in the fast pacing world. The lack of awareness about the ill effects of the
+sedentary lifestyle causes a major issue in their later life. According to the National
+Centre of Biotechnology information, the percentage of overweight has drastically
+increased from eight percent to more than fourteen percent since nineteen ninety
+eight. The obesity rate has increased from two percent to five percent during the
+same duration as mentioned above. This is a concerning issue for the nation. This
+research paper deals with an application which was developed to focus on the
+physical and the mental well being of the individual. The application gathers input
+such as height weight and blood pressure and calculates their Body Mass Index and
+their Mean arterial pressure to display findings about their health
 
-- They would be tested under common conditions like obesity and much more and
-would warn them against the possible health conditions that they are likely to
-receive in the upcoming years.
+## Modules
 
- - We are currently witnessing rapid advances in information communication
-technologies. It is a well-known fact that the implementation and deployment of
-these technologies in the health-care sector bring about significant benefits
-(affordable health care, cost-efficient health services, and many others) to all
-health-care stakeholders.
+### 1. Accounts Module
 
-- This tool could save the lives of the million and would create awareness amongst
-the commoners who are suffering from these health conditions.
-People can track for COVID - 19 at their locations and check their health status.
-You can get instant results by checking your symptoms in a smart diagnosis
-software.
+<img src="./Assets/C1.png" alt="drawing" width="30%"/>
 
-- Now patients can use diagnosis app to monitor their sugar levels or blood
-pressure and transmit this data to their healthcare providers in real-time. This
-allows them to maintain a regular record of their patients’ health without much
-effort, and to detect anomalies or deviations. It can also be used as a tool of
-public health records, to slow down or minimize the spread of pandemics.
+The registration module involves in
+creating a new user and creating an
+instance in the database of the
+application. The Login module verifies
+the user and directs the user to the
+boot page of the application.
 
+### 2. Tests & Results Module
+
+<img src="./Assets/C9.png" alt="drawing" width="30%"/>
+
+This module gathers various input of
+the user such as height, weight and
+age and calculates the body mass
+index of the user. The second test the
+user undergoes is the test for blood
+sugar and blood pressure.
+
+### 3. Mental-wellness module
+
+<img src="./Assets/C12.png" alt="drawing" width="30%"/>
+
+This module helps in improving the mental wellness of
+a person. The module has two core functionalities
+namely mindfulness and positivity. Mindfulness is the
+act of being conscious or being aware. The app sets a
+track according to the users preferences and let them
+be mindful. The positivity application gets the mood
+of the person and displays positive quote and articles
+to improve the overall morale of the user.
+
+### 4. Prescription Module
+
+<img src="./Assets/C5.png" alt="drawing" width="30%"/>
+
+The prescription module involves in
+uploading a digital version of a signed
+prescription. This feature helps in
+purchasing medicines that require the
+prescription of the doctor.
+
+### 5. Miscellaneous module
+
+<img src="./Assets/C3.png" alt="drawing" width="30%"/>
+
+This module has miscellaneous layouts
+such as the boot screen after the user
+login, Links to safety health portal and
+answers to general questions
